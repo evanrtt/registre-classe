@@ -1,0 +1,16 @@
+{
+  "name": "Registre Classe",
+  "short_name": "Registre",
+  "description": "Suivre les élèves en classe : plan de classe, noter, évaluer par compétences.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#2b4eb8",
+  "icons": [
+    { "src": "icones/icone-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icones/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icones/icone-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

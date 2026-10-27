@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Registre Classe</title>
+<meta name="theme-color" content="#2b4eb8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Registre">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icones/icone-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icones/icone-180.png">
+<style>
+  :root {
+    --fond: #f4f6f9; --carte: #fff; --texte: #1b2333; --doux: #5b6678; --bord: #dde2ea;
+    --accent: #2b4eb8; --sur-accent: #fff; --ok: #1f7a3a; --ko: #b42318;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #10141c; --carte: #1a202b; --texte: #e8ecf3; --doux: #9aa5b8; --bord: #2a3242;
+      --accent: #7d9bff; --sur-accent: #0b1020; --ok: #5cc97f; --ko: #ff7a6e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fond); color: var(--texte);
+    font: 17px/1.4 -apple-system, system-ui, sans-serif;
+    padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+             max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  }
+  h1 { font-size: 28px; margin: 8px 0 0; }
+  .sous { color: var(--doux); margin: 2px 0 16px; }
+  .carte { background: var(--carte); border: 1px solid var(--bord); border-radius: 14px; padding: 14px 16px; margin-bottom: 14px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .05em; color: var(--doux); margin: 0 0 8px; }
+  .liste { list-style: none; margin: 0; padding: 0; }
+  .liste li { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-top: 1px solid var(--bord); }
+  .liste li:first-child { border-top: 0; }
+  .liste span { text-align: right; color: var(--doux); }
+  .liste li.ok span { color: var(--ok); }
+  .liste li.ok span::before { content: '✓ '; }
+  .liste li.ko span { color: var(--ko); }
+  .liste li.ko span::before { content: '✗ '; }
+  .grand { font-size: 56px; font-weight: 700; margin: 0; font-variant-numeric: tabular-nums; }
+  .note { color: var(--doux); margin: 4px 0 12px; }
+  .bouton {
+    display: block; width: 100%; min-height: 50px; margin-top: 10px; padding: 0 16px;
+    border-radius: 12px; border: 1px solid var(--bord); background: var(--fond); color: var(--texte);
+    font: inherit; font-weight: 600; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  }
+  .bouton:active { opacity: .7; }
+  .principal { background: var(--accent); border-color: var(--accent); color: var(--sur-accent); font-size: 22px; }
+  video { display: block; width: 100%; border-radius: 12px; margin-top: 10px; background: #000; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Registre Classe</h1>
+  <p class="sous">Test de la coque · version <span id="version"></span></p>
+</header>
+
+<main>
+  <section class="carte" aria-labelledby="t-etat">
+    <h2 id="t-etat">État</h2>
+    <ul class="liste" id="etat"></ul>
+  </section>
+
+  <section class="carte" aria-labelledby="t-donnees">
+    <h2 id="t-donnees">Données conservées</h2>
+    <p class="grand" id="compteur">—</p>
+    <p class="note" id="ouvertures"></p>
+    <button class="bouton principal" id="plus" type="button">+1</button>
+  </section>
+
+  <section class="carte" aria-labelledby="t-essais">
+    <h2 id="t-essais">Essais</h2>
+    <button class="bouton" id="persister" type="button">Demander le stockage persistant</button>
+    <button class="bouton" id="exporter" type="button">Exporter un fichier d’essai</button>
+    <button class="bouton" id="camera" type="button">Tester la caméra</button>
+    <video id="video" playsinline muted hidden></video>
+  </section>
+</main>
+
+<script src="test-coque.js"></script>
+</body>
+</html>
