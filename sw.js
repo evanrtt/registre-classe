@@ -1,10 +1,38 @@
 /* Registre Classe — fonctionnement hors connexion.
-   À chaque mise à jour, changer le numéro ci-dessous (et VERSION dans test-coque.js) :
+   À chaque mise à jour, changer le numéro ci-dessous (et Plus.VERSION dans js/plus.js) :
    l'iPhone abandonne alors l'ancienne version. */
-const CACHE = 'registre-classe-0.1.0';
+const CACHE = 'registre-classe-0.4.0';
 const FICHIERS = [
-  './', 'index.html', 'test-coque.js', 'manifest.webmanifest',
-  'icones/icone-180.png', 'icones/icone-192.png', 'icones/icone-512.png',
+  './',
+  'index.html',
+  'app.css',
+  'manifest.webmanifest',
+  'test-coque.html',
+  'test-coque.js',
+  'icones/icone-180.png',
+  'icones/icone-192.png',
+  'icones/icone-512.png',
+  'js/app.js',
+  'js/aujourdhui.js',
+  'js/bilan.js',
+  'js/classes.js',
+  'js/evaluer.js',
+  'js/noter.js',
+  'js/plan.js',
+  'js/plus.js',
+  'js/salle.js',
+  'js/suivi.js',
+  'js/ui.js',
+  'shared/ui/tokens.css',
+  'shared/programme/programme.json',
+  'shared/lib/u.js',
+  'shared/lib/programme.js',
+  'shared/lib/stockage.js',
+  'shared/modele/modele.js',
+  'shared/modele/migration.js',
+  'shared/modele/fusion.js',
+  'shared/modele/depot.js',
+  'shared/modele/envoi.js',
 ];
 
 self.addEventListener('install', e => {

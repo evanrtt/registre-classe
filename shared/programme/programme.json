@@ -1,0 +1,665 @@
+{
+  "source": "Programmes d’arts plastiques des cycles 3 et 4 (2015, modifiés en 2020) — BOEN n° 31 du 30 juillet 2020",
+  "note": "Le cycle 3 couvre CM1, CM2 et 6e ; au collège, seule la 6e est concernée.",
+  "niveaux": {
+    "6e": 3,
+    "5e": 4,
+    "4e": 4,
+    "3e": 4
+  },
+  "domainesSocle": [
+    {
+      "id": "D1",
+      "lab": "Les langages pour penser et communiquer"
+    },
+    {
+      "id": "D2",
+      "lab": "Les méthodes et outils pour apprendre"
+    },
+    {
+      "id": "D3",
+      "lab": "La formation de la personne et du citoyen"
+    },
+    {
+      "id": "D4",
+      "lab": "Les systèmes naturels et les systèmes techniques"
+    },
+    {
+      "id": "D5",
+      "lab": "Les représentations du monde et l’activité humaine"
+    }
+  ],
+  "notions": [
+    {
+      "id": "forme",
+      "lab": "Forme",
+      "sous": [
+        "Contour",
+        "Silhouette",
+        "Géométrique",
+        "Organique",
+        "Plein / vide",
+        "Positif / négatif",
+        "Figuratif",
+        "Abstrait",
+        "Stylisation",
+        "Déformation",
+        "Répétition",
+        "Motif",
+        "Rythme",
+        "Composition"
+      ]
+    },
+    {
+      "id": "espace",
+      "lab": "Espace",
+      "sous": [
+        "2D / 3D",
+        "Plan",
+        "Profondeur",
+        "Perspective",
+        "Point de vue",
+        "Cadrage",
+        "Hors-champ",
+        "Échelle",
+        "Volume",
+        "Relief",
+        "In situ",
+        "Installation",
+        "Espace réel / représenté"
+      ]
+    },
+    {
+      "id": "lumiere",
+      "lab": "Lumière",
+      "sous": [
+        "Ombre / lumière",
+        "Clair-obscur",
+        "Contraste",
+        "Source lumineuse",
+        "Ombre portée",
+        "Ombre propre",
+        "Reflet",
+        "Transparence",
+        "Opacité",
+        "Contre-jour",
+        "Lumière artificielle",
+        "Lumière colorée"
+      ]
+    },
+    {
+      "id": "couleur",
+      "lab": "Couleur",
+      "sous": [
+        "Primaires",
+        "Secondaires",
+        "Complémentaires",
+        "Chaudes / froides",
+        "Teinte",
+        "Valeur",
+        "Saturation",
+        "Nuance",
+        "Camaïeu",
+        "Monochrome",
+        "Contraste",
+        "Mélange",
+        "Symbolique"
+      ]
+    },
+    {
+      "id": "matiere",
+      "lab": "Matière",
+      "sous": [
+        "Matériau",
+        "Texture",
+        "Épaisseur",
+        "Empâtement",
+        "Lisse / rugueux",
+        "Fluide / solide",
+        "Transformation",
+        "Assemblage",
+        "Fini / non-fini",
+        "Matière naturelle",
+        "Matière artificielle"
+      ]
+    },
+    {
+      "id": "geste",
+      "lab": "Geste",
+      "sous": [
+        "Trace",
+        "Empreinte",
+        "Touche",
+        "Geste ample",
+        "Geste précis",
+        "Rapidité / lenteur",
+        "Répétition",
+        "Recouvrement",
+        "Implication du corps",
+        "Performance"
+      ]
+    },
+    {
+      "id": "support",
+      "lab": "Support",
+      "sous": [
+        "Format",
+        "Orientation",
+        "Dimensions",
+        "Papier",
+        "Carton",
+        "Toile",
+        "Bois",
+        "Objet",
+        "Mur",
+        "Écran",
+        "Bord / limite",
+        "Support inhabituel"
+      ]
+    },
+    {
+      "id": "outil",
+      "lab": "Outil",
+      "sous": [
+        "Outil traditionnel",
+        "Outil détourné",
+        "Outil inventé",
+        "Outil numérique",
+        "Appareil photo",
+        "Tablette",
+        "Pinceau",
+        "Brosse",
+        "Rouleau",
+        "Pochoir",
+        "Lien outil / trace"
+      ]
+    },
+    {
+      "id": "temps",
+      "lab": "Temps",
+      "sous": [
+        "Durée",
+        "Instant",
+        "Mouvement",
+        "Séquence",
+        "Rythme",
+        "Éphémère",
+        "Processus",
+        "Avant / après",
+        "Montage",
+        "Narration"
+      ]
+    }
+  ],
+  "cycles": {
+    "3": {
+      "lab": "Cycle 3",
+      "niveaux": [
+        "6e"
+      ],
+      "questionnements": [
+        {
+          "id": "c3q1",
+          "nom": "La représentation plastique et les dispositifs de présentation",
+          "couleur": "#2a78d6",
+          "items": [
+            {
+              "id": "c3q1a",
+              "lab": "La ressemblance",
+              "det": "écart entre la représentation et le réel"
+            },
+            {
+              "id": "c3q1b",
+              "lab": "L’autonomie du geste graphique, pictural, sculptural",
+              "det": "ses incidences sur la représentation"
+            },
+            {
+              "id": "c3q1c",
+              "lab": "Les différentes catégories d’images, leurs procédés de fabrication, leurs transformations",
+              "det": ""
+            },
+            {
+              "id": "c3q1d",
+              "lab": "La narration visuelle",
+              "det": "succession d’images, temporalité"
+            },
+            {
+              "id": "c3q1e",
+              "lab": "La mise en regard et en espace",
+              "det": "cadre, socle, lieux et contextes de présentation"
+            },
+            {
+              "id": "c3q1f",
+              "lab": "La prise en compte du spectateur, de l’effet recherché",
+              "det": ""
+            }
+          ]
+        },
+        {
+          "id": "c3q2",
+          "nom": "Les fabrications et la relation entre l’objet et l’espace",
+          "couleur": "#eb6834",
+          "items": [
+            {
+              "id": "c3q2a",
+              "lab": "L’hétérogénéité et la cohérence plastiques",
+              "det": "assemblages, collages"
+            },
+            {
+              "id": "c3q2b",
+              "lab": "L’invention, la fabrication, les détournements, les mises en scène des objets",
+              "det": ""
+            },
+            {
+              "id": "c3q2c",
+              "lab": "L’espace en trois dimensions",
+              "det": "modelage, sculpture, installation"
+            }
+          ]
+        },
+        {
+          "id": "c3q3",
+          "nom": "La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre",
+          "couleur": "#1baf7a",
+          "items": [
+            {
+              "id": "c3q3a",
+              "lab": "La réalité concrète d’une production ou d’une œuvre",
+              "det": "format, support, matière"
+            },
+            {
+              "id": "c3q3b",
+              "lab": "Les qualités physiques des matériaux",
+              "det": ""
+            },
+            {
+              "id": "c3q3c",
+              "lab": "Les effets du geste et de l’instrument",
+              "det": ""
+            },
+            {
+              "id": "c3q3d",
+              "lab": "La matérialité et la qualité de la couleur",
+              "det": ""
+            }
+          ]
+        }
+      ],
+      "competences": [
+        {
+          "id": "c3k1",
+          "nom": "Expérimenter, produire, créer",
+          "domaines": [
+            "D1",
+            "D2",
+            "D4",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c3k1a",
+              "court": "Choisir gestes, outils et matériaux",
+              "lab": "Choisir, organiser et mobiliser des gestes, des outils et des matériaux en fonction des effets qu’ils produisent."
+            },
+            {
+              "id": "c3k1b",
+              "court": "Représenter le monde ou son imaginaire",
+              "lab": "Représenter le monde environnant ou donner forme à son imaginaire en explorant divers domaines (dessin, collage, modelage, sculpture, photographie, vidéo…)."
+            },
+            {
+              "id": "c3k1c",
+              "court": "Chercher une expression personnelle",
+              "lab": "Rechercher une expression personnelle en s’éloignant des stéréotypes."
+            },
+            {
+              "id": "c3k1d",
+              "court": "Utiliser des outils numériques",
+              "lab": "Intégrer l’usage des outils informatiques de travail de l’image et de recherche d’information, au service de la pratique plastique."
+            }
+          ]
+        },
+        {
+          "id": "c3k2",
+          "nom": "Mettre en œuvre un projet artistique",
+          "domaines": [
+            "D2",
+            "D3",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c3k2a",
+              "court": "Identifier les outils d’un projet",
+              "lab": "Identifier les principaux outils et compétences nécessaires à la réalisation d’un projet artistique."
+            },
+            {
+              "id": "c3k2b",
+              "court": "Se repérer dans les étapes du travail",
+              "lab": "Se repérer dans les étapes de la réalisation d’une production plastique individuelle ou collective, anticiper les difficultés éventuelles."
+            },
+            {
+              "id": "c3k2c",
+              "court": "Prendre sa part d’un travail collectif",
+              "lab": "Identifier et assumer sa part de responsabilité dans un processus coopératif de création."
+            },
+            {
+              "id": "c3k2d",
+              "court": "Adapter son projet au spectateur",
+              "lab": "Adapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur."
+            }
+          ]
+        },
+        {
+          "id": "c3k3",
+          "nom": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
+          "domaines": [
+            "D1",
+            "D3"
+          ],
+          "items": [
+            {
+              "id": "c3k3a",
+              "court": "Décrire avec un vocabulaire précis",
+              "lab": "Décrire et interroger à l’aide d’un vocabulaire spécifique ses productions plastiques, celles de ses pairs et des œuvres d’art étudiées en classe."
+            },
+            {
+              "id": "c3k3b",
+              "court": "Justifier ses choix",
+              "lab": "Justifier des choix pour rendre compte du cheminement qui conduit de l’intention à la réalisation."
+            },
+            {
+              "id": "c3k3c",
+              "court": "Exprimer ses émotions face aux œuvres",
+              "lab": "Formuler une expression juste de ses émotions, en prenant appui sur ses propres réalisations plastiques, celles des autres élèves et des œuvres d’art."
+            }
+          ]
+        },
+        {
+          "id": "c3k4",
+          "nom": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
+          "domaines": [
+            "D1",
+            "D3",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c3k4a",
+              "court": "Dépasser les stéréotypes",
+              "lab": "Repérer, pour les dépasser, certains a priori et stéréotypes culturels et artistiques."
+            },
+            {
+              "id": "c3k4b",
+              "court": "Situer une œuvre dans le temps et l’espace",
+              "lab": "Identifier quelques caractéristiques qui inscrivent une œuvre d’art dans une aire géographique ou culturelle et dans un temps historique, contemporain, proche ou lointain."
+            },
+            {
+              "id": "c3k4c",
+              "court": "Décrire et interpréter une œuvre",
+              "lab": "Décrire des œuvres d’art, en proposant une compréhension personnelle argumentée."
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "lab": "Cycle 4",
+      "niveaux": [
+        "5e",
+        "4e",
+        "3e"
+      ],
+      "questionnements": [
+        {
+          "id": "c4q1",
+          "nom": "La représentation ; images, réalité et fiction",
+          "couleur": "#2a78d6",
+          "items": [
+            {
+              "id": "c4q1a",
+              "lab": "La ressemblance",
+              "det": "rapport au réel, valeur expressive de l’écart, ressemblance et vraisemblance"
+            },
+            {
+              "id": "c4q1b",
+              "lab": "Le dispositif de représentation",
+              "det": "espaces à deux et trois dimensions, intervention sur le lieu, installation"
+            },
+            {
+              "id": "c4q1c",
+              "lab": "La narration visuelle",
+              "det": "mouvement, temporalité, séquence, montage, ellipse"
+            },
+            {
+              "id": "c4q1d",
+              "lab": "L’autonomie de l’œuvre d’art, les modalités de son autoréférenciation",
+              "det": "rapport au monde visible, mise en abyme, abstraction"
+            },
+            {
+              "id": "c4q1e",
+              "lab": "La création, la matérialité, le statut, la signification des images",
+              "det": "intention artistique et communication visuelle"
+            },
+            {
+              "id": "c4q1f",
+              "lab": "La conception, la production et la diffusion de l’œuvre plastique à l’ère du numérique",
+              "det": "incidences du numérique sur la création"
+            }
+          ]
+        },
+        {
+          "id": "c4q2",
+          "nom": "La matérialité de l’œuvre ; l’objet et l’œuvre",
+          "couleur": "#eb6834",
+          "items": [
+            {
+              "id": "c4q2a",
+              "lab": "La transformation de la matière",
+              "det": "relations entre matières, outils et gestes"
+            },
+            {
+              "id": "c4q2b",
+              "lab": "Les qualités physiques des matériaux",
+              "det": "potentiel de signification, fini et non-fini"
+            },
+            {
+              "id": "c4q2c",
+              "lab": "La matérialité et la qualité de la couleur",
+              "det": "sensation colorée et qualités physiques"
+            },
+            {
+              "id": "c4q2d",
+              "lab": "L’objet comme matériau en art",
+              "det": "détournement, citation, décontextualisation"
+            },
+            {
+              "id": "c4q2e",
+              "lab": "Les représentations et statuts de l’objet en art",
+              "det": "place de l’objet non artistique"
+            },
+            {
+              "id": "c4q2f",
+              "lab": "Le numérique en tant que processus et matériau artistiques",
+              "det": "outils, langages, dialogue avec les pratiques traditionnelles"
+            }
+          ]
+        },
+        {
+          "id": "c4q3",
+          "nom": "L’œuvre, l’espace, l’auteur, le spectateur",
+          "couleur": "#1baf7a",
+          "items": [
+            {
+              "id": "c4q3a",
+              "lab": "La relation du corps à la production artistique",
+              "det": "implication du corps, geste, traces, performance"
+            },
+            {
+              "id": "c4q3b",
+              "lab": "La présence matérielle de l’œuvre dans l’espace, la présentation de l’œuvre",
+              "det": "échelle, in situ, dispositifs de présentation"
+            },
+            {
+              "id": "c4q3c",
+              "lab": "L’expérience sensible de l’espace de l’œuvre",
+              "det": "espace perçu, ressenti, représenté ou construit"
+            },
+            {
+              "id": "c4q3d",
+              "lab": "Les métissages entre arts plastiques et technologies numériques",
+              "det": "œuvre, artiste et public à l’ère numérique"
+            }
+          ]
+        }
+      ],
+      "competences": [
+        {
+          "id": "c4k1",
+          "nom": "Expérimenter, produire, créer",
+          "domaines": [
+            "D1",
+            "D2",
+            "D4",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c4k1a",
+              "court": "Choisir et adapter ses moyens plastiques",
+              "lab": "Choisir, mobiliser et adapter des langages et des moyens plastiques variés en fonction de leurs effets dans une intention artistique en restant attentif à l’inattendu."
+            },
+            {
+              "id": "c4k1b",
+              "court": "S’approprier une question artistique",
+              "lab": "S’approprier des questions artistiques en prenant appui sur une pratique artistique et réflexive."
+            },
+            {
+              "id": "c4k1c",
+              "court": "Créer avec des outils numériques",
+              "lab": "Recourir à des outils numériques de captation et de réalisation à des fins de création artistique."
+            },
+            {
+              "id": "c4k1d",
+              "court": "Explorer les champs de la pratique",
+              "lab": "Explorer l’ensemble des champs de la pratique plastique et leurs hybridations, notamment avec les pratiques numériques."
+            },
+            {
+              "id": "c4k1e",
+              "court": "Penser la présentation de sa production",
+              "lab": "Prendre en compte les conditions de la réception de sa production dès la démarche de création, en prêtant attention aux modalités de sa présentation, y compris numérique."
+            },
+            {
+              "id": "c4k1f",
+              "court": "Exploiter une documentation pour créer",
+              "lab": "Exploiter des informations et de la documentation, notamment iconique, pour servir un projet de création."
+            }
+          ]
+        },
+        {
+          "id": "c4k2",
+          "nom": "Mettre en œuvre un projet",
+          "domaines": [
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c4k2a",
+              "court": "Concevoir et réaliser un projet",
+              "lab": "Concevoir, réaliser, donner à voir des projets artistiques, individuels ou collectifs."
+            },
+            {
+              "id": "c4k2b",
+              "court": "Mener sa production à terme",
+              "lab": "Mener à terme une production individuelle dans le cadre d’un projet accompagné par le professeur."
+            },
+            {
+              "id": "c4k2c",
+              "court": "Anticiper les étapes de la réalisation",
+              "lab": "Se repérer dans les étapes de la réalisation d’une production plastique et en anticiper les difficultés éventuelles."
+            },
+            {
+              "id": "c4k2d",
+              "court": "Être autonome et prendre des initiatives",
+              "lab": "Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique."
+            },
+            {
+              "id": "c4k2e",
+              "court": "Confronter intention et réalisation",
+              "lab": "Confronter intention et réalisation dans la conduite d’un projet pour l’adapter et le réorienter, s’assurer de la dimension artistique de celui-ci."
+            }
+          ]
+        },
+        {
+          "id": "c4k3",
+          "nom": "S’exprimer, analyser sa pratique, celle de ses pairs ; établir une relation avec celle des artistes, s’ouvrir à l’altérité",
+          "domaines": [
+            "D1",
+            "D3",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c4k3a",
+              "court": "Expliquer avec un vocabulaire approprié",
+              "lab": "Dire avec un vocabulaire approprié ce que l’on fait, ressent, imagine, observe, analyse ; s’exprimer pour soutenir des intentions artistiques ou une interprétation d’œuvre."
+            },
+            {
+              "id": "c4k3b",
+              "court": "Relier son travail aux œuvres",
+              "lab": "Établir des liens entre son propre travail, les œuvres rencontrées ou les démarches observées."
+            },
+            {
+              "id": "c4k3c",
+              "court": "Expliciter sa pratique, écouter les avis",
+              "lab": "Expliciter la pratique individuelle ou collective, écouter et accepter les avis divers et contradictoires."
+            },
+            {
+              "id": "c4k3d",
+              "court": "Porter un regard curieux sur les images",
+              "lab": "Porter un regard curieux et avisé sur son environnement artistique et culturel, proche et lointain, notamment sur la diversité des images fixes et animées, analogiques et numériques."
+            }
+          ]
+        },
+        {
+          "id": "c4k4",
+          "nom": "Se repérer dans les domaines liés aux arts plastiques, être sensible aux questions de l’art",
+          "domaines": [
+            "D1",
+            "D3",
+            "D5"
+          ],
+          "items": [
+            {
+              "id": "c4k4a",
+              "court": "Connaître des œuvres variées",
+              "lab": "Reconnaître et connaître des œuvres de domaines et d’époques variés appartenant au patrimoine national et mondial, en saisir le sens et l’intérêt."
+            },
+            {
+              "id": "c4k4b",
+              "court": "Situer une œuvre dans son contexte",
+              "lab": "Identifier des caractéristiques (plastiques, culturelles, sémantiques, symboliques) inscrivant une œuvre dans une aire géographique ou culturelle et dans un temps historique."
+            },
+            {
+              "id": "c4k4c",
+              "court": "Analyser et interpréter une œuvre",
+              "lab": "Proposer et soutenir l’analyse et l’interprétation d’une œuvre."
+            },
+            {
+              "id": "c4k4d",
+              "court": "Croiser les points de vue de l’auteur et du spectateur",
+              "lab": "Interroger et situer œuvres et démarches artistiques du point de vue de l’auteur et de celui du spectateur."
+            },
+            {
+              "id": "c4k4e",
+              "court": "Prendre part au débat sur l’art",
+              "lab": "Prendre part au débat suscité par le fait artistique."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
