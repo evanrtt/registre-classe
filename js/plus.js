@@ -6,7 +6,7 @@
 
 const Plus = {
   titre: 'Plus',
-  VERSION: '0.4.0',
+  VERSION: '0.4.1',
   RAPPEL_JOURS: 7,
 
   async afficher(root) {
@@ -199,7 +199,7 @@ const Plus = {
   /* fichier « Envoyer vers l'iPhone » du PC : résumé, puis séquences fusionnées et Aujourd'hui remplacé */
   recevoir() {
     const inp = document.createElement('input');
-    inp.type = 'file'; inp.accept = '.registre,.json,application/json';
+    inp.type = 'file'; // pas de filtre accept : iOS grise les .registre (extension inconnue) ; le contenu est vérifié à la lecture
     inp.onchange = async () => {
       const f = inp.files[0]; if (!f) return;
       let envoi;
@@ -226,7 +226,7 @@ const Plus = {
 
   restaurer() {
     const inp = document.createElement('input');
-    inp.type = 'file'; inp.accept = '.registre,.json,application/json';
+    inp.type = 'file'; // pas de filtre accept : iOS grise les .registre (extension inconnue) ; le contenu est vérifié à la lecture
     inp.onchange = async () => {
       const f = inp.files[0]; if (!f) return;
       let lu;

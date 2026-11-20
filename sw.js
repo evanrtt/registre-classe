@@ -1,7 +1,7 @@
 /* Registre Classe — fonctionnement hors connexion.
    À chaque mise à jour, changer le numéro ci-dessous (et Plus.VERSION dans js/plus.js) :
    l'iPhone abandonne alors l'ancienne version. */
-const CACHE = 'registre-classe-0.4.0';
+const CACHE = 'registre-classe-0.4.1';
 const FICHIERS = [
   './',
   'index.html',
